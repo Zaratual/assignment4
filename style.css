@@ -1,0 +1,129 @@
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Header styles */
+header {
+    position: relative;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #3498db; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0; 
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 1em; 
+}
+
+.navbar a, .subnav-content a {
+    display: block;
+    font-size: 1em; 
+    color: #ecf0f1; 
+    text-align: center;
+    padding: 1em 1.5em; 
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.navbar a:hover, .subnav-content a:hover {
+    background-color: #2980b9; 
+    color: #fff; 
+    font-size: 1.03em;
+}
+
+
+.subnav {
+    position: relative;
+    display: inline-block;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #3498db;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    min-width: 100px;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    border-top: 2px solid #2980b9; /* Darker blue for top border */
+}
+
+.subnav-content li {
+    display: block;
+    margin: 0; 
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+/* Main content styles */
+main {
+    padding: 0; /* Adjusted padding */
+}
+main p{
+    margin: 5px;
+    padding: 5px;
+}
+#pic{
+    width: 30%;
+    height: 29%;
+    margin: 10px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3498db;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em; 
+}
+
+.run {
+    background-color: #3498db; /* Blue */
+    text-align: left;
+    color: #ecf0f1;
+    
+}
+
+/* Responsive Design */
+/* Your existing styles for larger screens */
+
+/* ... (your existing styles) ... */
+
+/* New styles for responsive design */
